@@ -1,6 +1,9 @@
 {
   "private": true,
   "scripts": {
+
+    "seed": "node scripts/seed.js",
+    
     "build": "next build",
     "dev": "next dev",
     "prettier": "prettier --write --ignore-unknown .",
